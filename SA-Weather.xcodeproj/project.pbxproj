@@ -11,6 +11,7 @@
 		3606B8C327796C910036876F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3606B8C227796C910036876F /* ContentView.swift */; };
 		3606B8C527796C930036876F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3606B8C427796C930036876F /* Assets.xcassets */; };
 		3606B8C827796C930036876F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3606B8C727796C930036876F /* Preview Assets.xcassets */; };
+		3640341D277AB10B00AC5357 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3640341C277AB10B00AC5357 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3606B8C227796C910036876F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3606B8C427796C930036876F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3606B8C727796C930036876F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3640341C277AB10B00AC5357 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		3606B8BF27796C910036876F /* SA-Weather */ = {
 			isa = PBXGroup;
 			children = (
+				3640341C277AB10B00AC5357 /* WeatherButton.swift */,
 				3606B8C027796C910036876F /* SA_WeatherApp.swift */,
 				3606B8C227796C910036876F /* ContentView.swift */,
 				3606B8C427796C930036876F /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				3606B8C327796C910036876F /* ContentView.swift in Sources */,
 				3606B8C127796C910036876F /* SA_WeatherApp.swift in Sources */,
+				3640341D277AB10B00AC5357 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Com.DanCoWorldwide.SA-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DanCoWorldwide.DanCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Com.DanCoWorldwide.SA-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DanCoWorldwide.DanCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
